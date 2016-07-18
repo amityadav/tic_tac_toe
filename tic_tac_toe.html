@@ -1,0 +1,37 @@
+
+<html>
+  <head>
+    <title>Tic Tac Toe - By Amit Yadav</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="js/main.js"></script>
+    <style>
+      .boardPlace{
+        width:200px;
+        height: 200px;
+        border: 1px;
+        font-size: 160px;
+        text-align: center;
+      }
+    </style>
+  </head>
+<body>
+ <h1> <div align="center" id="displayMsg">It's x turn</div></h1>
+  <table border="1" align="center">
+    <tr>
+      <td><div class="boardPlace" id="1_1" onClick="changeTurn(this);"></td>
+      <td><div class="boardPlace" id="1_2" onClick="changeTurn(this);"></td>
+      <td><div class="boardPlace" id="1_3" onClick="changeTurn(this);"></td>
+    </tr>
+    <tr>
+      <td><div class="boardPlace" id="2_1" onClick="changeTurn(this);"></td>
+      <td><div class="boardPlace" id="2_2" onClick="changeTurn(this);"></td>
+      <td><div class="boardPlace" id="2_3" onClick="changeTurn(this);"></td>
+    </tr>
+    <tr>
+      <td><div class="boardPlace" id="3_1" onClick="changeTurn(this);"></td>
+      <td><div class="boardPlace" id="3_2" onClick="changeTurn(this);"></td>
+      <td><div class="boardPlace" id="3_3" onClick="changeTurn(this);"></td>
+    </tr>
+  </table>
+</body>
+</html>
